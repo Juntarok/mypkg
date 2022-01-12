@@ -1,6 +1,6 @@
 # mypkges
 
-2年　未来ロボティクス学科　ロボットシステム学の課題１
+2年　未来ロボティクス学科　ロボットシステム学の課題2
 
 # 目次
 ・目的
@@ -54,20 +54,22 @@
     $ git clone https://github.com/Juntarok/mypkges.git
     
 # 実行
-    $ cd mypkges
-    $ cd scripts
- 
+
  まず一つ目のウィンドウで
  
     $ roscore
     
 二つ目のウィンドウ
 
+    $ cd mypkges
+    $ cd scripts
     $ chmod +x count2.py
     $ rosrun mypkg count2.py
     
 三つ目のウィンドウ
 
+    $ cd mypkges
+    $ cd scripts
     $ chmod +x twice.py
     $ rosrun mypkg twice.py
     
