@@ -77,6 +77,9 @@
 
     $ rostopic echo /twice
     
-    
+
+「count2.py」と「twice.py」を実行すると「count2.py」で数字が表示されるものに「twice.py」で 2 ずつ足されていくプログラムになっている。
+
+
 # 引用
 Ryuichi Ueda https://youtu.be/PL85Pw_zQH0
